@@ -15,6 +15,7 @@ frame3 = tk.Frame(window)
 
 for frame in (frame1, frame2, frame3):
     frame.grid(row=0,column=0,sticky='nsew')
+    
 #==================Frame 1 code
 frame1_title=  tk.Label(frame1, text='Page 1', font='times 35', bg='red')
 frame1_title.pack(fill='both', expand=True)
